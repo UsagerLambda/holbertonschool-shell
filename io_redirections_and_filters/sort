@@ -1,2 +1,0 @@
-==> 9-duplicate_last_line <==
-tail -n 1 iacta >> sort -d iacta
