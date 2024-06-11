@@ -1,2 +1,2 @@
 #!/bin/bash
-sort -r iacta | tail -n 1
+tail -n 1 iacta >> sort iacta
