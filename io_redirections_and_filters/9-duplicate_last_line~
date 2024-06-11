@@ -1,0 +1,2 @@
+#!/bin/bash
+sort -d  9-duplicate_last_line
