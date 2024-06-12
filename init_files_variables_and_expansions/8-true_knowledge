@@ -1,2 +1,2 @@
 #!/bin/bash
-printf sum=$(($TRUEKNOWLEDGE+128))
+printf $(($TRUEKNOWLEDGE+128))
