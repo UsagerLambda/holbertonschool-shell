@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d "~" -f1 | uniq -c | rev | cut -d " " -f1 | rev
+cat -n | grep -E ^[[:space:]]*[13579] | rev | cut -d$'\t' -f1 | rev
