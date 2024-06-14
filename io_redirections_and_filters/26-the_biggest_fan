@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.tsv" | cut -d- -f1,6 | cat * | sort
+sort -k 5 *.tsv | head -n 11
